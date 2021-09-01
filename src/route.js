@@ -43,6 +43,11 @@ const routes = [
     component: () => import('./components/detail.vue'),
     name: 'detail',
   },
+  {
+    path: '/venom',
+    component: () => import('./components/venom.vue'),
+    name: 'venom',
+  },
 ];
 
 const router = new VueRouter({
